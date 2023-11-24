@@ -1,0 +1,25 @@
+---
+title: "session_1_codeinsertion"
+output: html_document
+date: 24.11.23
+---
+```{r first chunk, include=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+a <- 4 
+print(a)
+
+```{r load-data}
+#load tidyverse library
+library(tidyverse) #used for data manipulation
+library(rmarkdown)
+library(kableExtra)
+library(ggpubr)
+
+pop_data <- read_csv("data/gapminder_data.csv")
+
+
+  
+
+
+
+
